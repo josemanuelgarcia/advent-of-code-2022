@@ -1,10 +1,13 @@
 package com.jmgf.adventofcode
 
+import com.jmgf.adventofcode.puzzle.Day1
+
 object Runner extends App {
 
   def resource(day: Int): String = s"day${"%02d".format(day)}.txt"
 
   val puzzles: Map[Int, Puzzle[_, _, _]] = Map(
+    1 -> Day1
   )
 
 
