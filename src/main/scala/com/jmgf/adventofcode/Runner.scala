@@ -1,6 +1,6 @@
 package com.jmgf.adventofcode
 
-import com.jmgf.adventofcode.puzzle.{Day1, Day2, Day3}
+import com.jmgf.adventofcode.puzzle._
 
 object Runner extends App {
 
@@ -9,7 +9,8 @@ object Runner extends App {
   val puzzles: Map[Int, Puzzle[_, _, _]] = Map(
     1 -> Day1,
     2 -> Day2,
-    3 -> Day3
+    3 -> Day3,
+    4 -> Day4
   )
 
 
