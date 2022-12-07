@@ -63,8 +63,4 @@ object Day5 extends Puzzle[Seq[String], String, String] {
     lists.map(_.head.toString).mkString
   }
 
-
-
-
-
 }
